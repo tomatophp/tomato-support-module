@@ -8,14 +8,6 @@
             "email": "EngFadyMondy@gmail.com"
         }
     ],
-    "require": {
-        "php": "^8.1|^8.2",
-        "tomatophp/tomato-admin": "^1.2",
-        "tomatophp/tomato-plugins": "^1.2",
-        "tomatophp/console-helpers": "^1.1",
-        "joshbrw/laravel-module-installer": "^2.0",
-        "nwidart/laravel-modules": "^10.0"
-    },
     "extra": {
         "laravel": {
             "providers": [],
@@ -36,5 +28,14 @@
         "psr-4": {
             "Modules\\TomatoSupport\\Tests\\": "tests/"
         }
+    },
+    "require": {
+        "php": "^8.1|^8.2",
+        "tomatophp/tomato-admin": "^1.2",
+        "tomatophp/tomato-plugins": "^1.2",
+        "tomatophp/tomato-crm-module": "^1.0",
+        "tomatophp/console-helpers": "^1.1",
+        "joshbrw/laravel-module-installer": "^2.0",
+        "nwidart/laravel-modules": "^10.0"
     }
 }
