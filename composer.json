@@ -8,6 +8,17 @@
             "email": "EngFadyMondy@gmail.com"
         }
     ],
+    "keywords": [
+        "Splade",
+        "support",
+        "ticketing",
+        "support system",
+        "faq",
+        "FAQ",
+        "tomatophp",
+        "crm"
+    ],
+    "license": "MIT",
     "extra": {
         "laravel": {
             "providers": [],
