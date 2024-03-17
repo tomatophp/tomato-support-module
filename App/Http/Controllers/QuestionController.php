@@ -79,7 +79,7 @@ class QuestionController extends Controller
                 'qa*' => 'required|string|max:255',
                 'answer' => 'nullable|array'
             ],
-            message: __('Question updated successfully'),
+            message: __('Question created successfully'),
             redirect: 'admin.questions.index',
         );
 

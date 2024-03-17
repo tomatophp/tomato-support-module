@@ -1,4 +1,4 @@
-<x-tomato-admin-container :label="__('Ticket #') . $model->code">
+<x-tomato-admin-container :label="__('Ticket') . ' #'. $model->code">
     <x-slot:buttons>
         @if(config('tomato-support.actions'))
             @include(config('tomato-support.actions'), ['model' => $model])
