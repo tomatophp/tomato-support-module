@@ -135,7 +135,7 @@ class TicketController extends Controller
         $response = Tomato::store(
             request: $request,
             model: \Modules\TomatoSupport\App\Models\Ticket::class,
-            message: __('Ticket updated successfully'),
+            message: __('Ticket created successfully'),
             redirect: 'admin.tickets.index',
         );
 
